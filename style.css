@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: rgb(94, 53, 53);
+    font-size: 1.5vw;
+    font-family: tahoma;
+    color:rgb(94, 53, 53) ;
+}
+.container{
+    background-color: azure;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding-top: 15px;
+    width:50%;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.item{
+    width:80%
+}
+label{
+    display: block;
+}
+input{
+    border:none;
+    outline: none;
+    border-bottom:1px solid black;
+    width: 100%;
+}
+select{
+    width: 100%;
+}
+textarea{
+    width: 100%;
+}
+.bouton{
+    background-color: green;
+    color: white;
+    height: 50px;
+}
+.bouton:hover{
+    background-color: rgb(1, 53, 1);
+    color: white;
+}
